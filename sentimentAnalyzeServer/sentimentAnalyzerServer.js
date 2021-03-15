@@ -32,7 +32,7 @@ app.get("/",(req,res)=>{
 
 app.get("/url/emotion", (req,res) => {
 
-    return res.send({"happy":"90","sad":"10"});
+    return res.send.getNLUInstance();
 });
 
 app.get("/url/sentiment", (req,res) => {
